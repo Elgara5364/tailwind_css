@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "../../assets/DesignAGENCY.png";
 import Image from "next/image";
+import DownArrow from "../../assets/ep_arrow-right-bold.png";
 
 const Navbar = () => {
   return (
@@ -8,12 +9,15 @@ const Navbar = () => {
       <div>
         <Image src={Logo} className="" />
       </div>
-      <div className="flex gap-10 items-center font-semibold">
-        <Link href={"/services"}>Services</Link>
+      <div className="flex gap-7 items-center font-medium">
+        <div className="flex gap-2.5">
+          <Link href={"/services"}>Services</Link>
+          <Image src={DownArrow} className="cursor-pointer" />
+        </div>
         <Link href={"/aboutus"}>About Us</Link>
         <Link href={"/contactus"}>Contact Us</Link>
         {/* <Link href={"/services"}>Services</Link> */}
-        <div className="flex gap-10">
+        <div className="flex gap-7">
           <button className="w-24  rounded-xl border-2 border-lime-600  py-2">
             Login
           </button>

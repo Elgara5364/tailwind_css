@@ -14,6 +14,23 @@ module.exports = {
       },
       backgroundColor: {
         green_primary: "#D7F5DC",
+        green_secondary: "#FAFFFB",
+      },
+      fontSize: {
+        4.5: "40px",
+      },
+      textColor: {
+        primary: "#20B15A",
+      },
+      spacing: {
+        128: "32rem",
+        15.5: "3.88rem",
+        18: "18rem",
+      },
+      padding: {
+        105: "105px",
+        50: "50px",
+        30: "30px",
       },
     },
   },
