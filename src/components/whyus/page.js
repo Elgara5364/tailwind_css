@@ -34,7 +34,7 @@ const WhyUs = () => {
         <div className="flex ">
           {datas.map((item, index) => (
             <div key={index} className="flex flex-col gap-2.5 p-10">
-              <Image src={item.icon} className="m-auto" />
+              <Image src={item.icon} className="m-auto" alt="" />
               <h3 className="mb-1 text-black font-medium text-base text-center">
                 {item.description}
               </h3>

@@ -14,7 +14,7 @@ const OurPartners = () => {
         <div className="max-w-screen-xl m-auto justify-center flex gap-44 h-32 items-center">
           {images.map((item, index) => (
             <div key={index}>
-              <Image src={item} />
+              <Image src={item} alt="" />
             </div>
           ))}
         </div>
