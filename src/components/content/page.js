@@ -1,4 +1,4 @@
-import Lady from "../../assets/HeaderLady1.png";
+import Lady from "@/assets/Headerlady1.png";
 import Image from "next/image";
 import { poppins, lato } from "@/app/font";
 
